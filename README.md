@@ -38,7 +38,7 @@ A beautiful and efficient Chrome extension for quickly accessing the Tailwind CS
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/tailwindcss-color-picker.git
+    git clone https://github.com/pazzero/tailwindcss-color-picker.git
     cd tailwindcss-color-picker
     ```
 
