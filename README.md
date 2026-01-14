@@ -1,6 +1,6 @@
-![Tailwind CSS Color Picker](public/icon128.png)
+![Tailwind CSS Color Palette Picker](public/icon128.png)
 
-# Tailwind CSS Color Picker Extension
+# Tailwind CSS Color Palette Picker Extension
 
 A beautiful and efficient Chrome extension for quickly accessing the Tailwind CSS color palette. Built with React, Vite, and Tailwind CSS, this tool allows developers to copy colors in various formats, including class names, HEX, RGB, HSL, OKLCH, and CSS variables.
 
@@ -38,7 +38,7 @@ A beautiful and efficient Chrome extension for quickly accessing the Tailwind CS
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/pazzero/tailwindcss-color-picker.git
+    git clone https://github.com/pazzero/chrome-tailwindcss-color-palette-picker.git
     cd tailwindcss-color-picker
     ```
 
