@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path id="Background" d="M1024,204.8L1024,819.2C1024,932.232 932.232,1024 819.2,1024L204.8,1024C91.768,1024 0,932.232 0,819.2L0,204.8C0,91.768 91.768,0 204.8,0L819.2,0C932.232,0 1024,91.768 1024,204.8Z" style="fill:url(#_Linear1);"/>
+    <path id="Wave1" d="M512,237C696.178,237 729.365,399.347 835.365,399.312C910.81,399.287 962,328 962,328C912.328,526.515 747.315,507.015 737,507C547.592,506.718 525.266,345.252 414.107,345.155C337.949,345.089 289,417 289,417C289,417 310.473,237 512,237Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+    <g id="Wave2" transform="matrix(1,0,0,1,-227,269.46787)">
+        <path d="M512,237C696.178,237 729.365,399.347 835.365,399.312C910.81,399.287 962,328 962,328C912.328,526.515 747.315,507.015 737,507C547.592,506.718 525.266,345.252 414.107,345.155C337.949,345.089 289,417 289,417C289,417 310.473,237 512,237Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1024,1024,-1024,1024,0,0)"><stop offset="0" style="stop-color:rgb(22,190,203);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(22,29,45);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
