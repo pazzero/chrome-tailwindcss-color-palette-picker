@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { useChromeStorage } from "./hooks/useChromeStorage"
 import { colord, extend } from "colord"
 import namesPlugin from "colord/plugins/names"
 import { parse, formatHex, formatRgb, formatHsl } from "culori"
@@ -305,9 +306,9 @@ type ColorFormat = "className" | "hex" | "rgb" | "hsl" | "oklch" | "var"
 
 function App() {
   const [search, setSearch] = useState("")
-  const [format, setFormat] = useState<ColorFormat>("className")
+  const [format, setFormat] = useChromeStorage<ColorFormat>("format", "className")
   const [copiedColor, setCopiedColor] = useState<string | null>(null)
-  const [theme, setTheme] = useState<"light" | "dark" | "system">("system")
+  const [theme, setTheme] = useChromeStorage<"light" | "dark" | "system">("theme", "system")
 
   useEffect(() => {
     const root = window.document.documentElement

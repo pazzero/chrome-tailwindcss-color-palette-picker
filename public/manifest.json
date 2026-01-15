@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Tailwind CSS Color Picker",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Quickly get color codes from the Tailwind CSS palette.",
   "action": {
     "default_popup": "index.html",
