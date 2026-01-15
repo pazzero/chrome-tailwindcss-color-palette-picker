@@ -1,6 +1,6 @@
 ![Tailwind CSS Color Palette Picker](public/icon128.png)
 
-# Tailwind CSS Color Palette Picker Extension
+# Tailwind CSS Color Palette Picker Extension for Chrome
 
 A beautiful and efficient Chrome extension for quickly accessing the Tailwind CSS color palette. Built with React, Vite, and Tailwind CSS, this tool allows developers to copy colors in various formats, including class names, HEX, RGB, HSL, OKLCH, and CSS variables.
 
@@ -28,7 +28,18 @@ A beautiful and efficient Chrome extension for quickly accessing the Tailwind CS
 - **Color Utilities:** [colord](https://github.com/omgovich/colord) & [culori](https://github.com/ghosh/culori)
 - **Package Manager:** [Bun](https://bun.sh/)
 
-## Installation & Development
+# Installation
+## Chrome Web Store
+
+The extension is published in the Chrome Web Store for quick installation: [Chrome Web Store](https://chromewebstore.google.com/detail/tailwind-css-color-picker/mmihpjihdgdgmbgejpmbemhpeigebdcc)
+
+## Manual installation
+
+The release and security check procedure for Chrome Web Store can took up to 30 Days. In the release section of this repository you'll always find the current build version ready to use: [Releases](https://github.com/pazzero/chrome-tailwindcss-color-palette-picker/releases)
+
+Follow this instructions for manual installation: [Load into Chrome](#load-into-chrome)
+
+## Development
 
 ### Prerequisites
 
@@ -39,7 +50,7 @@ A beautiful and efficient Chrome extension for quickly accessing the Tailwind CS
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/pazzero/chrome-tailwindcss-color-palette-picker.git
-    cd tailwindcss-color-picker
+    cd chrome-tailwindcss-color-palette-picker
     ```
 
 2.  **Install dependencies:**
